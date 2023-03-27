@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+
+.list {
+    padding-top: 92px;
+}
+
+.list h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #2C2C2C;
+    margin-bottom: 12px;
+}
+
+.list h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: rgba(44, 44, 44, 0.5);
+    margin-bottom: 16px;
+}
+
+.dots {
+    margin-top: 70px;
+    display: flex;
+}
+
+.dots button {
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #2F80ED;
+    cursor: pointer;
+    border: none;
+    margin-right: 10px;
+    background: none;
+}
+
+button.active {
+    background: #079DAC;
+    color: #fff;
+}

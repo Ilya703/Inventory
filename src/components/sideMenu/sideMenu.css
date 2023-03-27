@@ -1,0 +1,94 @@
+.typesBlock {
+    padding: 92px 0 0 16px;
+}
+
+.typesBlock h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #2C2C2C;
+    margin-bottom: 20px;
+}
+
+.typesBlock h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #2C2C2C;
+    margin-bottom: 6px;
+}
+
+.typeFilter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.typeFilter input {
+    width: 220px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #079DAC;
+    border-radius: 8px;
+    outline: none;
+    caret-color: #079DAC;
+    padding: 0 14px;
+    margin-right: 18px;
+}
+
+.typeFilter input::placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    color: #838D96;
+}
+
+.typesBlock fieldset {
+    margin-top: 18px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #2C2C2C;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.typesBlock fieldset label {
+    margin-bottom: 18px;
+    position: relative;
+    padding-left: 36px;
+}
+
+.typesBlock fieldset input {
+    display: none;
+}
+
+/* .typesBlock fieldset label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #079DAC;
+    border-radius: 4px;
+    margin-right: 18px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    margin-left: -36px;
+    transform: translateY(-4px);
+}
+
+.checkedLabel::before {
+    background-image: url('../../resources/img/tick.png');
+} */

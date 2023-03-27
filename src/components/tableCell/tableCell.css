@@ -1,0 +1,10 @@
+.tableCell {
+    width: 200px;
+} 
+
+.tableCell div {
+    border: none;
+    width: 90%;
+    height: 26px;
+    outline: none;
+}
